@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[OFTA_JenisCuti]
+(
+	JenisCutiID VARCHAR(3) NOT NULL CONSTRAINT DF_OFTA_JenisCuti_JenisCutiID DEFAULT(''),
+	JenisCutiName VARCHAR(20) NOT NULL CONSTRAINT DF_OFTA_JenisCuti_JenisCutiName DEFAULT(''),
+
+	CONSTRAINT PK_OFTA_JenisCuti_JenisCutiID PRIMARY KEY CLUSTERED (JenisCutiID),
+)

@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[OFTA_JenisArsip]
+(
+	JenisArsipID VARCHAR(3) NOT NULL CONSTRAINT DF_OFTA_JenisArsip_JenisArsipID DEFAULT(''),
+	JenisArsipName VARCHAR(30) NOT NULL CONSTRAINT DF_OFTA_JenisArsip_JenisArsipName DEFAULT(''),
+
+	CONSTRAINT PK_OFTA_JenisArsip_JenisArsipID PRIMARY KEY CLUSTERED(JenisArsipID)
+)

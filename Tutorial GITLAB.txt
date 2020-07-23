@@ -1,0 +1,46 @@
+A. Alur Kerja Menggunakan GitLab
+
+1. Buka GitLab.com
+2. Cek Issue
+3. Click: CREATE MERGE REQUEST
+
+4. Masuk Visual Studio (Open Project Ofta)
+5. Team Explorer >> Sync
+6. Team Explorer >> Branch
+7. Klik Remote-Origin >> Pilih Branch Sesuai Nomor Issue
+
+8. Coding sesuai isi Issue
+9. Save
+10. Commit Pekerjaan; Klik Commit Number (Bar bawah, angka sebelah kanan)
+11. Ubah pilih command ke Commit and Sync, proses.
+
+12. Buka GitLab
+13. Pilih menu sebelah kiri: Merge Request
+14. Pilih MR yang sedang dikerjakan
+15. Klik Resolve WIP Status
+
+B. Coding Convention
+
+Ada 5 standard penamaan variable yang dikenal dalam 
+dunia programming, yang berkaitan dengan huruf besar 
+dan spasi yaitu:
+
+1. Camel Case (camelCase): 
+- Semua kata disambung dan setiap huruf awal dibuat kapital, kecuali huruf pertama (tetap huruf kecil)
+ - Contoh : kodePegawai, tglLahir, statusWargaNegara
+
+2. Pascal Case (PascalCase)
+- Sama seperti Camel Case, tapi huruf pertama adalah huruf besar
+- Contoh: KodePegawai, TglLahir, StatusWargaNegara
+
+3. SnakeCase (snake_case)
+- Semua ditulis dalam huruf kecil dan dipisahkan oleh garis bawah
+- Contoh: kode_pegawai, tgl_lahir, status_warga_negara
+
+4. Scream Case  (SCREAM_CASE)
+- Semua ditulis dalah huruf kapital da dipisahkan oleh garis bawah
+- Contoh: KODE_PEGAWAI, TGL_LAHIR, STATUS_WARGA_NEGARA
+
+5. Kebab Case (kebab-case)
+- Semua ditulis dalam huruf kecil dan dipisahkan tanda minus
+- Contoh: kode-pegawai, tgl-lahir, status-warga-negara

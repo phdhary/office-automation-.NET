@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[OFTA_Jabatan]
+(
+	JabatanID VARCHAR(3) NOT NULL CONSTRAINT DF_OFTA_Jabatan_Jabatan_ID DEFAULT(''),
+	JabatanName VARCHAR(20) NOT NULL CONSTRAINT DF_OFTA_Jabatan_JabatanName DEFAULT(''),
+
+	CONSTRAINT PK_OFTA_Jabatan_JabatanID PRIMARY KEY CLUSTERED(JabatanID)
+)

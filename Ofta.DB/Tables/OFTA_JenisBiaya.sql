@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[OFTA_JenisBiaya]
+(
+	JenisBiayaID VARCHAR(3) NOT NULL CONSTRAINT DF_OFTA_JenisBiaya_JenisBiayaID DEFAULT(''),
+	JenisBiayaName VARCHAR(20) NOT NULL CONSTRAINT DF_OFTA_JenisBiaya_JenisBiayaName DEFAULT(''),
+
+	CONSTRAINT PK_OFTA_JenisBiaya_JenisBiayaID PRIMARY KEY CLUSTERED(JenisBiayaID)
+)
